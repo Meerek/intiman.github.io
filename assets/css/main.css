@@ -44,7 +44,7 @@ header ul a {
     color: #fff;
 }
 
-header ul a.download {
+header ul a.koupit {
     display: inline-block;
     cursor: pointer;
     border: 1px solid #56746F;
@@ -52,7 +52,7 @@ header ul a.download {
     transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out;
     margin-right: 10px;
 }
-header ul a.download:hover {
+header ul a.koupit:hover {
     background-color: #426861;
     border-color: #426861;
 }
@@ -109,7 +109,7 @@ header ul a.learnMore:hover {
         text-decoration: none;
         line-height: 43px;
     }
-    header ul a.download {
+    header ul a.koupit {
         margin: 0;
         margin-bottom: 20px;
     }
@@ -315,6 +315,7 @@ section#about {
     text-align: center;
 }
 section#about p {
+    font-size: 30px;
     width: 500px;
     display: inline-block;
     margin-bottom: 25px;
@@ -343,81 +344,82 @@ section#about a:hover{
     }
 }
 
-/* Template Section CSS */
-section#template {
+/* Points Section CSS */
+section#points {
     padding: 75px 0;
     text-align: center;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/bgTemplateSection.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/bgpointsSection.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-section#template h1.headerLine {
+section#points h1.headerLine {
     color: white;
 }
-section#template div.lineContainer div.line {
+section#points div.lineContainer div.line {
     background-color: white;
 }
-section#template div.row {
+section#points div.row {
     margin-top: 50px;
 }
-section#template div.row div.col svg {
+section#points div.row div.col svg {
     height: 70px;
     width: 70px;
     padding: 5px;
 }
-section#template div.row div.col svg path {
+section#points div.row div.col svg path {
     fill: #56746F;
     width: 100%;
     height: 100%;
 }
-section#template div.row div.col h1, section#template div.row div.col p {
+section#points div.row div.col h1, section#points div.row div.col p {
     color: white;
     font-size: 20px;
     font-weight: 200;
 }
-section#template div.row div.col h1 {
+section#points div.row div.col h1 {
     font-size: 40px;
     line-height: 80px;
     font-weight: 600;
 }
 @media only screen and (max-width: 906px) {
-    section#template div.row div.col {
+    section#points div.row div.col {
         width: 270px;
     }
 }
 @media only screen and (max-width: 816px) {
-    section#template div.row div.col {
+    section#points div.row div.col {
         width: 250px;
     }
 }
 @media only screen and (max-width: 757px) {
-    section#template div.lineContainer {
+    section#points div.lineContainer {
         margin-bottom: 50px;
     }
-    section#template div.row div.col {
+    section#points div.row div.col {
         width: 100%;
         display: block;
         margin-top: 70px;
     }
-    section#template div.row div.col p {
+    section#points div.row div.col p {
         width: 250px;
         display: inline-block;
     }
 }
 
-/* Download Section CSS */
-section#download {
+/* Purchase Section CSS */
+section#koupit {
     padding: 75px 0;
     text-align: center;
 }
-section#download p {
+section#koupit p {
+    font-size: 30px;
     width: 500px;
     display: inline-block;
     margin-bottom: 25px;
 }
-section#download a {
+section#koupit a {
     height: 55px;
     font-size: 25px;
     padding: 0 15px;
@@ -431,15 +433,15 @@ section#download a {
     transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out;
     margin-right: 10px;
 }
-section#download a:hover {
+section#koupit a:hover {
     background-color: #426861;
     border-color: #426861;
 }
 @media only screen and (max-width: 500px) {
-    section#download p {
+    section#koupit p {
         width: 90%;
     }
-    section#download h1.headerLine {
+    section#koupit h1.headerLine {
         font-size: 32.5px;
     }
 }
@@ -451,6 +453,7 @@ section#contact {
     background-color: #f5f5f5;
 }
 section#contact p.desc {
+    font-size: 30px;
     width: 500px;
     display: inline-block;
     margin-bottom: 25px;
